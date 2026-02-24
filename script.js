@@ -70,7 +70,7 @@ function getComputerChoice() {
       playRound(getHumanChoice("scissors"), getComputerChoice());
    });
 
-   //Reset
+   //Reset Button Logic
 
    function resetGame() {
     humanScore = 0;
@@ -85,30 +85,3 @@ function getComputerChoice() {
     document.getElementById("btn-scissors").disabled = false;
    }
    document.getElementById("btn-reset").addEventListener("click", resetGame)
-  
-    // Play 5 rounds
-    //for (let round = 1; round <= 5; round++) {
-      //console.log(`--- Round ${round} ---`);
-  
-     // const humanSelection = getHumanChoice();
-     // const computerSelection = getComputerChoice();
-  
-     // playRound(humanSelection, computerSelection);
-  
-      //console.log(`Score: You ${humanScore} - Computer ${computerScore}`);
-    //}
-  
-    // Final Answer 
-    //console.log("--- Final Answer ---");
-    //if (humanScore > computerScore) {
-     // console.log("You win the game!");
-   // } else if (humanScore < computerScore) {
-      //console.log("Computer wins the game!");
-   // } else {
-    //  console.log("The game is a tie!");
-   // }
-  //}
-  
-  // start the game
-  //playGame();
-  
